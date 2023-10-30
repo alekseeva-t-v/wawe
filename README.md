@@ -21,5 +21,5 @@
 ![GIT](./public/git-badge.svg)
 ![GULP](./public/gulp-badge.svg)
 
-## [**Демо**](https://alekseeva-t-v.github.io/figma-mini-project/)
+## [**Демо**](https://alekseeva-t-v.github.io/wawe/)
 ![demo](./public/demo-gif.gif)
