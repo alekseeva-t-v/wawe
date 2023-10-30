@@ -22,4 +22,4 @@
 ![GULP](./public/gulp-badge.svg)
 
 ## [**Демо**](https://alekseeva-t-v.github.io/wawe/)
-![demo](./public/demo-gif.gif)
+![demo](./public/demo.gif)
