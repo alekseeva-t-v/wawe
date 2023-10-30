@@ -1,0 +1,155 @@
+.pricing {
+  padding: 200px 0;
+  background-color: var(--page-bg);
+
+  &__wrapper {
+    text-align: center;
+  }
+
+  &__title {
+    margin-bottom: 212px;
+  }
+
+  &__items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div.pricing__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 375px;
+    height: 577px;
+    padding: 55px 35px;
+    background-color: var(--light);
+  }
+
+  &__item {
+    .pricing__item-name {
+      margin-bottom: 70px;
+      font-weight: 400;
+      font-size: 36px;
+      text-align: center;
+    }
+
+    li {
+      margin-bottom: 20px;
+      font-size: 14px;
+      font-weight: 400;
+      text-align: left;
+      color: var(--text-color);
+    }
+
+    .pricing__item-num {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: 400;
+      line-height: 40px;
+      font-size: 36px;
+      line-height: 40px;
+      color: var(--title-color);
+
+      sup {
+        margin-left: 5px;
+        font-size: 18px;
+        line-height: 22px;
+      }
+    }
+
+    .pricing__item-link {
+      display: block;
+      margin-top: 70px;
+      font-family: var(--font-accent);
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 17px;
+      letter-spacing: 1.2px;
+      color: var(--title-color);
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .pricing {
+    padding: 90px 0 90px;
+
+    &__title {
+      margin-bottom: 90px;
+    }
+
+    &__items {
+      gap: 20px;
+    }
+
+    div.pricing__item {
+      height: 600px;
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .pricing {
+    padding: 75px 0 50px;
+
+    &__title {
+      margin-bottom: 45px;
+    }
+
+    &__items {
+      gap: 15px;
+    }
+
+    div.pricing__item {
+      height: 480px;
+      padding: 30px 25px;
+    }
+
+    &__item {
+      .pricing__item-name {
+        margin-bottom: 20px;
+        font-size: 26px;
+        line-height: 34px;
+      }
+
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .pricing {
+    &__items {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .pricing {
+    padding: 75px 0 25px;
+
+    &__title {
+      margin-bottom: 20px;
+    }
+
+    div.pricing__item {
+      height: 420px;
+    }
+
+    &__item {
+      .pricing__item-name {
+        font-size: 22px;
+      }
+
+      .pricing__item-num {
+        font-size: 28px;
+        line-height: 32px;
+      }
+    }
+  }
+}

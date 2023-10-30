@@ -1,0 +1,47 @@
+.map {
+  padding: 200px 15px 0;
+
+  &__img {
+    display: block;
+    width: 95vw;
+    height: 640px;
+    max-width: 1473px;
+    margin: 0 auto;
+    background-image: url(../img/map.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+  }
+}
+
+@media (max-width: 1200px) {
+  .map {
+    padding: 90px 0 90px;
+  }
+}
+
+@media (max-width: 992px) {
+  .map {
+    padding: 75px 0 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .map {
+    padding: 75px 10px;
+
+    &__img {
+      width: 93vw;
+      height: 580px;
+    }
+  }
+}
+
+@media (max-width: 576px) {
+  .map {
+    &__img {
+      width: 89vw;
+      height: 440px;
+    }
+  }
+}

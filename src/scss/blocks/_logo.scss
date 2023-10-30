@@ -1,0 +1,11 @@
+.logo {
+  position: relative;
+  z-index: 2;
+  margin-right: 185px;
+}
+
+@media (max-width: 992px) {
+  .logo {
+    margin-right: 50px;
+  }
+}

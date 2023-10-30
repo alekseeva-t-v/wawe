@@ -1,0 +1,161 @@
+.slider-blog {
+  padding: 198px 0 0;
+
+  &__wrapper {
+    text-align: center;
+  }
+
+  &__title {
+    margin-bottom: 229px;
+  }
+
+  &__container {
+    width: 100%;
+    min-height: 800px;
+    background-image: url(../img/slider-bg.jpg);
+  }
+
+  &__inner {
+    padding-top: 320px;
+  }
+
+  &__item-title {
+    width: 600px;
+    margin-left: auto;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 56px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: var(--light);
+  }
+
+  &__item-descr {
+    width: 600px;
+    margin-left: auto;
+    padding-bottom: 250px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+    color: var(--light);
+  }
+}
+
+.slick-dots {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  button {
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    font-size: 0;
+    background-color: var(--light);
+    border-radius: 50%;
+  }
+
+  li + li {
+    margin-left: 15px;
+  }
+
+  .slick-active {
+    button {
+      background-color: var(--accent);
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .slider-blog {
+    padding: 90px 0 0;
+
+		&__title {
+      margin-bottom: 90px;
+    }
+
+    &__container {
+      min-height: 600px;
+    }
+
+    &__inner {
+      padding-top: 200px;
+    }
+
+    &__item-descr {
+      padding-bottom: 180px;
+    }
+	}
+}
+
+@media (max-width: 992px) {
+  .slider-blog {
+    padding: 75px 0 0;
+
+		&__title {
+      margin-bottom: 50px;
+    }
+
+    &__container {
+      min-height: 550px;
+      background-position: bottom center;
+    }
+
+    &__inner {
+      padding-top: 150px;
+    }
+
+    &__item-descr {
+      padding-bottom: 150px;
+    }
+
+    &__item-title {
+      font-size: 40px;
+    }
+	}
+}
+
+@media (max-width: 768px) {
+  .slider-blog {
+    &__container {
+      min-height: 450px;
+      background-position: center left;
+    }
+
+    &__inner {
+      padding-top: 100px;
+    }
+
+    &__item-descr {
+      padding-bottom: 90px;
+    }
+
+    &__item-title {
+      width: 480px;
+      font-size: 36px;
+    }
+
+    &__item-descr {
+      width: 480px;
+    }
+	}
+}
+
+@media (max-width: 576px) {
+  .slider-blog {
+
+    &__item-title {
+      width: 290px;
+      margin-bottom: 20px;
+      font-size: 28px;
+      line-height: 36px;
+    }
+
+    &__item-descr {
+      width: 280px;
+      padding-bottom: 80px;
+    }
+	}
+}
